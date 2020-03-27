@@ -49,7 +49,7 @@
 					<label for="email">Email: </label>
 					<!-- appending a sample on the input box for email -->
 					<div class="input-group mb-3">
-    					<input type="email" name="em" id="email" class="form-control" placeholder="Enter e-mail" >	
+    					<input type="email" name="em" id="email" class="form-control" placeholder="Enter e-mail" required>	
     					<div class="input-group-append">
       						<span class="input-group-text">@example.com</span>
     					</div>
@@ -66,8 +66,7 @@
 							<option value="Tanzania">Tanzania</option>
 							<option value="Rwanda">Rwanda</option>
 							<option value="Burundi">Burundi</option>
-						</select>	
-						<div class="invalid-feedback">Please fill out this field</div>				
+						</select>					
 				</div>
 
 <!-- phone number input -->
